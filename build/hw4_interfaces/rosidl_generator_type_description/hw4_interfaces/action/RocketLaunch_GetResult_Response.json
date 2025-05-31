@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "hw4_interfaces/action/RocketLaunch_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_Result",
+        "fields": [
+          {
+            "name": "sequence",
+            "type": {
+              "type_id": 152,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Response",
+      "hash_string": "RIHS01_d1e17e70ecc493dbfeaa1b2a36282d89663c702f58d7420bee7859d10d8dc3d0"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_Result",
+      "hash_string": "RIHS01_5617297e0908ee58df580d7aa3bf927b8ff03b0714199e6dd25229fccef16bdb"
+    }
+  ]
+}

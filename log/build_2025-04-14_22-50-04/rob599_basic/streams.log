@@ -1,0 +1,68 @@
+[0.937s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_basic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rob599_basic build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/install.log --single-version-externally-managed install_data
+[1.217s] running egg_info
+[1.217s] creating ../../build/rob599_basic/rob599_basic.egg-info
+[1.239s] writing ../../build/rob599_basic/rob599_basic.egg-info/PKG-INFO
+[1.240s] writing dependency_links to ../../build/rob599_basic/rob599_basic.egg-info/dependency_links.txt
+[1.240s] writing entry points to ../../build/rob599_basic/rob599_basic.egg-info/entry_points.txt
+[1.240s] writing requirements to ../../build/rob599_basic/rob599_basic.egg-info/requires.txt
+[1.240s] writing top-level names to ../../build/rob599_basic/rob599_basic.egg-info/top_level.txt
+[1.240s] writing manifest file '../../build/rob599_basic/rob599_basic.egg-info/SOURCES.txt'
+[1.285s] reading manifest file '../../build/rob599_basic/rob599_basic.egg-info/SOURCES.txt'
+[1.285s] adding license file 'LICENSE'
+[1.286s] writing manifest file '../../build/rob599_basic/rob599_basic.egg-info/SOURCES.txt'
+[1.286s] running build
+[1.286s] running build_py
+[1.286s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build
+[1.286s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib
+[1.286s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic
+[1.287s] copying rob599_basic/subscriber.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic
+[1.287s] copying rob599_basic/publisher.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic
+[1.287s] copying rob599_basic/twice.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic
+[1.287s] copying rob599_basic/service_client.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic
+[1.287s] copying rob599_basic/__init__.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic
+[1.287s] copying rob599_basic/messages.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic
+[1.287s] copying rob599_basic/node.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic
+[1.287s] copying rob599_basic/value_manipulator.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic
+[1.287s] copying rob599_basic/service_server.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic
+[1.287s] running install
+[1.293s] running install_lib
+[1.319s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+[1.319s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic/subscriber.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+[1.320s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic/publisher.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+[1.320s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic/twice.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+[1.320s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic/service_client.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+[1.320s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic/__init__.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+[1.320s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic/messages.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+[1.320s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic/node.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+[1.320s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic/value_manipulator.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+[1.320s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build/lib/rob599_basic/service_server.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic
+[1.320s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/subscriber.py to subscriber.cpython-312.pyc
+[1.321s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/publisher.py to publisher.cpython-312.pyc
+[1.321s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/twice.py to twice.cpython-312.pyc
+[1.321s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/service_client.py to service_client.cpython-312.pyc
+[1.322s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/__init__.py to __init__.cpython-312.pyc
+[1.322s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/messages.py to messages.cpython-312.pyc
+[1.323s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/node.py to node.cpython-312.pyc
+[1.323s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/value_manipulator.py to value_manipulator.cpython-312.pyc
+[1.324s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic/service_server.py to service_server.cpython-312.pyc
+[1.324s] running install_data
+[1.324s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/ament_index
+[1.324s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/ament_index/resource_index
+[1.324s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/ament_index/resource_index/packages
+[1.324s] copying resource/rob599_basic -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/ament_index/resource_index/packages
+[1.324s] copying package.xml -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/rob599_basic
+[1.325s] running install_egg_info
+[1.352s] Copying ../../build/rob599_basic/rob599_basic.egg-info to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic-0.1.0-py3.12.egg-info
+[1.353s] running install_scripts
+[1.530s] Installing custom_publisher script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[1.530s] Installing custom_subscriber script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[1.530s] Installing doubler script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[1.530s] Installing noiser script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[1.530s] Installing publisher script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[1.530s] Installing service_client script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[1.530s] Installing service_server script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[1.531s] Installing subscriber script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[1.531s] Installing twice script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[1.531s] Installing useless script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[1.532s] writing list of installed files to '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/install.log'
+[1.573s] Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_basic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rob599_basic build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/install.log --single-version-externally-managed install_data

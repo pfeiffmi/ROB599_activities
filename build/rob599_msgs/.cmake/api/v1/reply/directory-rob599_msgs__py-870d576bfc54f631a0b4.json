@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rob599_msgs__py",
+		"source" : "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs/rob599_msgs__py"
+	}
+}

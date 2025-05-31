@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rob599_msgs/srv/FibService_Request",
+      "fields": [
+        {
+          "name": "number",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rob599_msgs/srv/FibService_Request",
+      "hash_string": "RIHS01_f34269842ba9285544dc443a53fd98866fd10d589a96347fb0bb7267b4e9cacd"
+    }
+  ]
+}

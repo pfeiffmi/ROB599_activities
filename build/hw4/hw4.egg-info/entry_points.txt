@@ -1,0 +1,6 @@
+[console_scripts]
+limiter = hw4.oscope:main_limiter
+nasa = hw4.nasa:main
+oscope = hw4.oscope:main_oscope
+rocket_launcher.with_cancel = hw4.launch_rocket:with_cancel
+rocket_launcher.without_cancel = hw4.launch_rocket:without_cancel

@@ -1,0 +1,522 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hw4_interfaces/action/RocketLaunch",
+      "fields": [
+        {
+          "name": "goal",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "hw4_interfaces/action/RocketLaunch_Goal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "hw4_interfaces/action/RocketLaunch_Result"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "hw4_interfaces/action/RocketLaunch_Feedback"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "send_goal_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "hw4_interfaces/action/RocketLaunch_SendGoal"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "get_result_service",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "hw4_interfaces/action/RocketLaunch_GetResult"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback_message",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "hw4_interfaces/action/RocketLaunch_FeedbackMessage"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_Feedback",
+        "fields": [
+          {
+            "name": "progress",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_FeedbackMessage",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "feedback",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_Feedback"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_GetResult",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Response",
+        "fields": [
+          {
+            "name": "status",
+            "type": {
+              "type_id": 2,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "result",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_Result"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_Goal",
+        "fields": [
+          {
+            "name": "number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_Result",
+        "fields": [
+          {
+            "name": "sequence",
+            "type": {
+              "type_id": 152,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_SendGoal",
+        "fields": [
+          {
+            "name": "request_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_SendGoal_Response"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "event_message",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_SendGoal_Event"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_SendGoal_Event",
+        "fields": [
+          {
+            "name": "info",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "request",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_SendGoal_Request"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "response",
+            "type": {
+              "type_id": 97,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_SendGoal_Response"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_SendGoal_Request",
+        "fields": [
+          {
+            "name": "goal_id",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "unique_identifier_msgs/msg/UUID"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "goal",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "hw4_interfaces/action/RocketLaunch_Goal"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "hw4_interfaces/action/RocketLaunch_SendGoal_Response",
+        "fields": [
+          {
+            "name": "accepted",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch",
+      "hash_string": "RIHS01_b882c5f366cfa4d9ac3f2a0ca18d316bd1a40eed4f3a094ce3f4b10e1f998b3f"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_Feedback",
+      "hash_string": "RIHS01_efc0231c8b73648afaf6e3362504a1afb916c56ccec4f49f51c552ef29f11552"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_FeedbackMessage",
+      "hash_string": "RIHS01_39073883e3ba17d8eb43293ab1a4ad1563c3195e2290f2ba731dcee3282ec45c"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_GetResult",
+      "hash_string": "RIHS01_10fede7ccdc9fd5ae96237f25559128d1269b26cc15ca3a6abd242d2e88ef28f"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Event",
+      "hash_string": "RIHS01_c14ce5c72dcc42c7bf188d4d3400fbc61f654f61ae11b6484856aed7b259af07"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Request",
+      "hash_string": "RIHS01_467eac36dc4bac857475f5c0a0b1a239081d7350d0d801262e128019c27ac788"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_GetResult_Response",
+      "hash_string": "RIHS01_d1e17e70ecc493dbfeaa1b2a36282d89663c702f58d7420bee7859d10d8dc3d0"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_Goal",
+      "hash_string": "RIHS01_ed0b2f849db573636e245e4b91ece44e134e2bb0665e702bb71027faa3a1ee97"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_Result",
+      "hash_string": "RIHS01_5617297e0908ee58df580d7aa3bf927b8ff03b0714199e6dd25229fccef16bdb"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_SendGoal",
+      "hash_string": "RIHS01_a657dc69c41d5b0c1048c365410e0a1eb516c6e00c3c28c6a9a586beb47d70cc"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_SendGoal_Event",
+      "hash_string": "RIHS01_75a1a80e59a8b2e3a52e268fedd434c7707e220bcae0b807a5cb221323b8b893"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_SendGoal_Request",
+      "hash_string": "RIHS01_35a8c23226ca52a04cf3f60c7d55864c0c80569c654492f8c108d3659f84e63e"
+    },
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_SendGoal_Response",
+      "hash_string": "RIHS01_cf4ffc1e57df8b83d8f32052f2a51d0551fc365070484891256728fa6570f91a"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}

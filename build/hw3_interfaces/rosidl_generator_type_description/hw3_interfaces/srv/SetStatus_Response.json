@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hw3_interfaces/srv/SetStatus_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "hw3_interfaces/srv/SetStatus_Response",
+      "hash_string": "RIHS01_7ee7a923c1c7720bef50927c35f9c2ddb25b72b2485750cbe574d8f6cebc0097"
+    }
+  ]
+}

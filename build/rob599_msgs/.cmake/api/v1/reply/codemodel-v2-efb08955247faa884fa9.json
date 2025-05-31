@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fd08d511f0dbd3449c00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "rob599_msgs__py",
+					"jsonFile" : "directory-rob599_msgs__py-870d576bfc54f631a0b4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs/rob599_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rob599_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rob599_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rob599_msgs_egg-1f50436ca4fade565986.json",
+					"name" : "ament_cmake_python_build_rob599_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_rob599_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_rob599_msgs-0942d5ce5d37884bf87d.json",
+					"name" : "ament_cmake_python_copy_rob599_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs-e2c82b1b03a3a7d15b41.json",
+					"name" : "rob599_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs__cpp-a7a779f3dd36c1bc39a1.json",
+					"name" : "rob599_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rob599_msgs__py::@d39be0333bc9edbef087",
+					"jsonFile" : "target-rob599_msgs__py-3c08f35ffe9d86ac68fc.json",
+					"name" : "rob599_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs__rosidl_generator_c-3483ebdf1b93485a0644.json",
+					"name" : "rob599_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs__rosidl_generator_py-718747bd93c3a16ff59d.json",
+					"name" : "rob599_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs__rosidl_generator_type_description-d2258be197b073c488f4.json",
+					"name" : "rob599_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs__rosidl_typesupport_c-9108ca6531e9f42fbc20.json",
+					"name" : "rob599_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs__rosidl_typesupport_cpp-3c41d7dca16505855361.json",
+					"name" : "rob599_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs__rosidl_typesupport_fastrtps_c-f6ea58a6dbcd6eb9b40c.json",
+					"name" : "rob599_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs__rosidl_typesupport_fastrtps_cpp-8dad94abf0e1750f5e5e.json",
+					"name" : "rob599_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs__rosidl_typesupport_introspection_c-fc97aed1d763ebb68c3f.json",
+					"name" : "rob599_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs__rosidl_typesupport_introspection_cpp-8bd35c3d4cb46df4dab8.json",
+					"name" : "rob599_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs_s__rosidl_typesupport_c-c92fb2e8fe1c917e3249.json",
+					"name" : "rob599_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs_s__rosidl_typesupport_fastrtps_c-ca60a9fdc5680833ec7a.json",
+					"name" : "rob599_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs_s__rosidl_typesupport_introspection_c-40455c5017089bf7f324.json",
+					"name" : "rob599_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rob599_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rob599_msgs_uninstall-eaa6cfa6b1a333d4f91d.json",
+					"name" : "rob599_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7a4a2b7b84736dedb067.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs",
+		"source" : "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

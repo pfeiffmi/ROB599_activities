@@ -1,0 +1,5 @@
+[console_scripts]
+fast_wave = hw2.oscope:main_fast
+limiter = hw2.oscope:main_limiter
+oscope = hw2.oscope:main_oscope
+slow_wave = hw2.oscope:main_slow

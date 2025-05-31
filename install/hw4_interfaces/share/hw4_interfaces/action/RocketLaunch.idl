@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from hw4_interfaces/action/RocketLaunch.action
+// generated code does not contain a copyright notice
+
+
+module hw4_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "goal")
+    struct RocketLaunch_Goal {
+      int64 number;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct RocketLaunch_Result {
+      sequence<int64> sequence;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct RocketLaunch_Feedback {
+      int64 progress;
+    };
+  };
+};

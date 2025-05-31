@@ -1,0 +1,25 @@
+[1.526s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/install.log --single-version-externally-managed install_data
+[1.827s] running egg_info
+[1.851s] writing ../../build/hw2/hw2.egg-info/PKG-INFO
+[1.851s] writing dependency_links to ../../build/hw2/hw2.egg-info/dependency_links.txt
+[1.851s] writing entry points to ../../build/hw2/hw2.egg-info/entry_points.txt
+[1.851s] writing requirements to ../../build/hw2/hw2.egg-info/requires.txt
+[1.851s] writing top-level names to ../../build/hw2/hw2.egg-info/top_level.txt
+[1.898s] reading manifest file '../../build/hw2/hw2.egg-info/SOURCES.txt'
+[1.898s] adding license file 'LICENSE'
+[1.899s] writing manifest file '../../build/hw2/hw2.egg-info/SOURCES.txt'
+[1.899s] running build
+[1.899s] running build_py
+[1.900s] running install
+[1.905s] running install_lib
+[1.930s] running install_data
+[1.931s] running install_egg_info
+[1.955s] removing '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages/hw2-0.0.1-py3.12.egg-info' (and everything under it)
+[1.955s] Copying ../../build/hw2/hw2.egg-info to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages/hw2-0.0.1-py3.12.egg-info
+[1.957s] running install_scripts
+[2.113s] Installing fast_wave script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/hw2
+[2.113s] Installing limiter script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/hw2
+[2.114s] Installing oscope script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/hw2
+[2.114s] Installing slow_wave script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/hw2
+[2.114s] writing list of installed files to '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/install.log'
+[2.171s] Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/install.log --single-version-externally-managed install_data

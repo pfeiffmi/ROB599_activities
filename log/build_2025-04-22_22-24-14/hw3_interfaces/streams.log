@@ -1,0 +1,33 @@
+[0.042s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3_interfaces -DCMAKE_INSTALL_PREFIX=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces
+[1.424s] -- The C compiler identification is GNU 13.3.0
+[1.425s] -- The CXX compiler identification is GNU 13.3.0
+[1.426s] -- Detecting C compiler ABI info
+[1.426s] -- Detecting C compiler ABI info - done
+[1.426s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.426s] -- Detecting C compile features
+[1.426s] -- Detecting C compile features - done
+[1.426s] -- Detecting CXX compiler ABI info
+[1.427s] -- Detecting CXX compiler ABI info - done
+[1.427s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.427s] -- Detecting CXX compile features
+[1.427s] -- Detecting CXX compile features - done
+[1.427s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.485s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.783s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.054s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[2.162s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.203s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.245s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.340s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.382s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.390s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[2.390s]   rosidl_generate_interfaces() the passed file 'srv/AddThreeInts.srv' doesn't
+[2.390s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[2.390s]   '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3_interfaces'
+[2.390s] Call Stack (most recent call first):
+[2.391s]   CMakeLists.txt:29 (rosidl_generate_interfaces)
+[2.391s] 
+[2.391s] [0m
+[2.391s] -- Configuring incomplete, errors occurred!
+[2.407s] Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3_interfaces -DCMAKE_INSTALL_PREFIX=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces

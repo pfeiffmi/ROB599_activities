@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/hw4/hw4.egg-info
+writing ../../build/hw4/hw4.egg-info/PKG-INFO
+writing dependency_links to ../../build/hw4/hw4.egg-info/dependency_links.txt
+writing entry points to ../../build/hw4/hw4.egg-info/entry_points.txt
+writing requirements to ../../build/hw4/hw4.egg-info/requires.txt
+writing top-level names to ../../build/hw4/hw4.egg-info/top_level.txt
+writing manifest file '../../build/hw4/hw4.egg-info/SOURCES.txt'
+reading manifest file '../../build/hw4/hw4.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/hw4/hw4.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build
+creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib
+creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4
+copying hw4/__init__.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4
+copying hw4/oscope.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4
+running install
+running install_lib
+creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4
+copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4/__init__.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4
+copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4/oscope.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4
+byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4/oscope.py to oscope.cpython-312.pyc
+running install_data
+creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/ament_index
+creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/ament_index/resource_index
+creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/ament_index/resource_index/packages
+copying resource/hw4 -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/ament_index/resource_index/packages
+copying package.xml -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4
+running install_egg_info
+Copying ../../build/hw4/hw4.egg-info to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4-0.0.1-py3.12.egg-info
+running install_scripts
+Installing limiter script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+Installing oscope script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+writing list of installed files to '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/install.log'

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hw3_interfaces/srv/SetLogging_Request",
+      "fields": [
+        {
+          "name": "log_data",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "log_file",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "hw3_interfaces/srv/SetLogging_Request",
+      "hash_string": "RIHS01_d506611b53bf00a74afbcb86a9781c5dd62c5a94848bc536ec83c5a122381e43"
+    }
+  ]
+}

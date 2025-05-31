@@ -1,0 +1,304 @@
+[0.038s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces -- -j12 -l12
+[0.649s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.649s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.649s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.650s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.650s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.650s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.650s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.703s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.836s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.973s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.974s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.409s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.434s] -- Added test 'lint_cmake' to check CMake code style
+[1.435s] -- Added test 'xmllint' to check XML markup files
+[1.444s] -- Configuring done (1.3s)
+[1.521s] -- Generating done (0.1s)
+[1.538s] -- Build files have been written to: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces
+[1.589s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.611s] [  1%] Built target ament_cmake_python_copy_hw3_interfaces
+[1.823s] [  1%] Built target hw3_interfaces__rosidl_generator_type_description
+[1.835s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.847s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.884s] running egg_info
+[1.910s] writing hw3_interfaces.egg-info/PKG-INFO
+[1.910s] writing dependency_links to hw3_interfaces.egg-info/dependency_links.txt
+[1.910s] writing top-level names to hw3_interfaces.egg-info/top_level.txt
+[1.987s] reading manifest file 'hw3_interfaces.egg-info/SOURCES.txt'
+[1.987s] writing manifest file 'hw3_interfaces.egg-info/SOURCES.txt'
+[2.029s] [  5%] Built target ament_cmake_python_build_hw3_interfaces_egg
+[2.201s] [  5%] Built target hw3_interfaces__cpp
+[2.268s] [  9%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/msg/detail/test_packet__functions.c.o[0m
+[2.268s] [  9%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/msg/detail/test_packet__description.c.o[0m
+[2.268s] [ 12%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/srv/detail/set_status__description.c.o[0m
+[2.268s] [ 12%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/srv/detail/set_logging__description.c.o[0m
+[2.269s] [ 16%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/srv/detail/set_logging__functions.c.o[0m
+[2.269s] [ 16%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/srv/detail/set_status__functions.c.o[0m
+[2.269s] [ 18%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/srv/detail/set_logging__type_support.c.o[0m
+[2.269s] [ 20%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/msg/detail/test_packet__type_support.c.o[0m
+[2.270s] [ 22%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hw3_interfaces/srv/detail/set_status__type_support.c.o[0m
+[2.376s] [ 24%] [32m[1mLinking C shared library libhw3_interfaces__rosidl_generator_c.so[0m
+[2.426s] [ 24%] Built target hw3_interfaces__rosidl_generator_c
+[2.440s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.440s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.440s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.440s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.440s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.441s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.787s] [ 37%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hw3_interfaces/srv/set_logging__type_support.cpp.o[0m
+[2.787s] [ 38%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hw3_interfaces/msg/test_packet__type_support.cpp.o[0m
+[2.789s] [ 40%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hw3_interfaces/srv/set_status__type_support.cpp.o[0m
+[2.807s] [ 42%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hw3_interfaces/msg/test_packet__type_support.cpp.o[0m
+[2.816s] [ 44%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hw3_interfaces/srv/set_logging__type_support.cpp.o[0m
+[2.816s] [ 46%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hw3_interfaces/srv/set_status__type_support.cpp.o[0m
+[2.843s] [ 48%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hw3_interfaces/msg/detail/test_packet__type_support.c.o[0m
+[2.855s] [ 50%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hw3_interfaces/srv/detail/set_status__type_support.c.o[0m
+[2.858s] [ 51%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hw3_interfaces/srv/detail/set_logging__type_support.c.o[0m
+[2.911s] [ 53%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hw3_interfaces/msg/detail/test_packet__type_support.cpp.o[0m
+[2.911s] [ 55%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hw3_interfaces/srv/detail/set_status__type_support.cpp.o[0m
+[2.912s] [ 57%] [32m[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_c.so[0m
+[2.930s] [ 59%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hw3_interfaces/srv/detail/set_logging__type_support.cpp.o[0m
+[2.952s] [ 61%] [32m[1mLinking C shared library libhw3_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.989s] [ 62%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hw3_interfaces/msg/detail/dds_fastrtps/test_packet__type_support.cpp.o[0m
+[2.992s] [ 66%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hw3_interfaces/srv/detail/dds_fastrtps/set_logging__type_support.cpp.o[0m
+[2.992s] [ 66%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hw3_interfaces/srv/detail/dds_fastrtps/set_status__type_support.cpp.o[0m
+[3.061s] [ 68%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hw3_interfaces/msg/detail/test_packet__type_support_c.cpp.o[0m
+[3.062s] [ 68%] Built target hw3_interfaces__rosidl_typesupport_c
+[3.102s] [ 70%] Built target hw3_interfaces__rosidl_typesupport_introspection_c
+[3.105s] [ 70%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hw3_interfaces/srv/detail/set_status__type_support_c.cpp.o[0m
+[3.159s] [ 72%] [32mBuilding CXX object CMakeFiles/hw3_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hw3_interfaces/srv/detail/set_logging__type_support_c.cpp.o[0m
+[3.777s] [ 75%] [32m[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_cpp.so[0m
+[3.779s] [ 75%] [32m[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.198s] [ 75%] Built target hw3_interfaces__rosidl_typesupport_introspection_cpp
+[4.198s] [ 75%] Built target hw3_interfaces__rosidl_typesupport_cpp
+[4.208s] [ 77%] [32m[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.351s] [ 77%] Built target hw3_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.385s] [ 79%] [32m[1mLinking CXX shared library libhw3_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.478s] [ 79%] Built target hw3_interfaces__rosidl_typesupport_fastrtps_c
+[4.509s] [ 79%] Built target hw3_interfaces
+[4.538s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.155s] [ 81%] Built target hw3_interfaces__py
+[5.211s] [ 87%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hw3_interfaces/msg/_test_packet_s.c.o[0m
+[5.211s] [ 87%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hw3_interfaces/srv/_set_logging_s.c.o[0m
+[5.212s] [ 87%] [32mBuilding C object CMakeFiles/hw3_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hw3_interfaces/srv/_set_status_s.c.o[0m
+[5.430s] [ 88%] [32m[1mLinking C shared library libhw3_interfaces__rosidl_generator_py.so[0m
+[5.487s] [ 88%] Built target hw3_interfaces__rosidl_generator_py
+[5.519s] [ 92%] [32mBuilding C object CMakeFiles/hw3_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.520s] [ 92%] [32mBuilding C object CMakeFiles/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.520s] [ 94%] [32mBuilding C object CMakeFiles/hw3_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.630s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[5.630s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_c.so[0m
+[5.634s] [100%] [32m[1mLinking C shared module rosidl_generator_py/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.662s] [100%] Built target hw3_interfaces_s__rosidl_typesupport_c
+[5.663s] [100%] Built target hw3_interfaces_s__rosidl_typesupport_introspection_c
+[5.669s] [100%] Built target hw3_interfaces_s__rosidl_typesupport_fastrtps_c
+[5.685s] Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces -- -j12 -l12
+[5.686s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces
+[5.696s] -- Install configuration: ""
+[5.697s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/ament_index/resource_index/rosidl_interfaces/hw3_interfaces
+[5.698s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/msg/TestPacket.json
+[5.699s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/srv/SetStatus.json
+[5.699s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/srv/SetLogging.json
+[5.699s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces
+[5.700s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg
+[5.700s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/test_packet.h
+[5.700s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail
+[5.700s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__functions.c
+[5.700s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__functions.h
+[5.701s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__description.c
+[5.701s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__type_support.h
+[5.701s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__type_support.c
+[5.702s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__struct.h
+[5.702s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.702s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv
+[5.702s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/set_logging.h
+[5.702s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail
+[5.702s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__struct.h
+[5.703s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__description.c
+[5.703s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__type_support.c
+[5.704s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__description.c
+[5.704s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__functions.h
+[5.704s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__functions.h
+[5.704s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__struct.h
+[5.704s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__functions.c
+[5.705s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__type_support.c
+[5.706s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__type_support.h
+[5.706s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__type_support.h
+[5.706s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__functions.c
+[5.706s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/set_status.h
+[5.707s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/environment/library_path.sh
+[5.707s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/environment/library_path.dsv
+[5.708s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_generator_c.so
+[5.709s] -- Set non-toolchain portion of runtime path of "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_generator_c.so" to ""
+[5.709s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces
+[5.709s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg
+[5.710s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.710s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail
+[5.710s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__rosidl_typesupport_fastrtps_c.h
+[5.710s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv
+[5.710s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail
+[5.711s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__rosidl_typesupport_fastrtps_c.h
+[5.711s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__rosidl_typesupport_fastrtps_c.h
+[5.711s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.712s] -- Set non-toolchain portion of runtime path of "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.712s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces
+[5.712s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg
+[5.712s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.713s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail
+[5.713s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__type_support.c
+[5.713s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__rosidl_typesupport_introspection_c.h
+[5.713s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv
+[5.713s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail
+[5.713s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__type_support.c
+[5.713s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__type_support.c
+[5.713s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__rosidl_typesupport_introspection_c.h
+[5.713s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__rosidl_typesupport_introspection_c.h
+[5.714s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_introspection_c.so
+[5.715s] -- Set non-toolchain portion of runtime path of "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.715s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_c.so
+[5.716s] -- Set non-toolchain portion of runtime path of "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_c.so" to ""
+[5.716s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces
+[5.716s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg
+[5.716s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/test_packet.hpp
+[5.716s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail
+[5.717s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__traits.hpp
+[5.717s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__struct.hpp
+[5.717s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__type_support.hpp
+[5.717s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__builder.hpp
+[5.718s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.718s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv
+[5.719s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/set_logging.hpp
+[5.719s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/set_status.hpp
+[5.719s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail
+[5.719s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__type_support.hpp
+[5.720s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__traits.hpp
+[5.720s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__struct.hpp
+[5.720s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__builder.hpp
+[5.720s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__traits.hpp
+[5.720s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__struct.hpp
+[5.720s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__type_support.hpp
+[5.721s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__builder.hpp
+[5.721s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces
+[5.721s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg
+[5.722s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.722s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail
+[5.722s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[5.722s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/dds_fastrtps
+[5.722s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv
+[5.722s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail
+[5.723s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/dds_fastrtps
+[5.723s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__rosidl_typesupport_fastrtps_cpp.hpp
+[5.723s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__rosidl_typesupport_fastrtps_cpp.hpp
+[5.724s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.725s] -- Set non-toolchain portion of runtime path of "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.725s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces
+[5.725s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg
+[5.725s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail
+[5.726s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__rosidl_typesupport_introspection_cpp.hpp
+[5.726s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/msg/detail/test_packet__type_support.cpp
+[5.727s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv
+[5.727s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail
+[5.727s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__rosidl_typesupport_introspection_cpp.hpp
+[5.727s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__type_support.cpp
+[5.728s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_logging__type_support.cpp
+[5.728s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/include/hw3_interfaces/hw3_interfaces/srv/detail/set_status__rosidl_typesupport_introspection_cpp.hpp
+[5.729s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.729s] -- Set non-toolchain portion of runtime path of "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.730s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_cpp.so
+[5.731s] -- Set non-toolchain portion of runtime path of "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.731s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/environment/pythonpath.sh
+[5.731s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/environment/pythonpath.dsv
+[5.731s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info
+[5.731s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info/dependency_links.txt
+[5.731s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info/top_level.txt
+[5.731s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info/SOURCES.txt
+[5.732s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces-0.0.1-py3.12.egg-info/PKG-INFO
+[5.732s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces
+[5.732s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.732s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.732s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/__init__.py
+[5.733s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/msg
+[5.733s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/msg/__init__.py
+[5.733s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/msg/_test_packet.py
+[5.733s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/msg/_test_packet_s.c
+[5.733s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_c.c
+[5.733s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/_hw3_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.733s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.734s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_c.so
+[5.734s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv
+[5.734s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/__init__.py
+[5.734s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/_set_logging_s.c
+[5.734s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/_set_status.py
+[5.734s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/_set_status_s.c
+[5.735s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/_set_logging.py
+[5.782s] Listing '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces'...
+[5.782s] Compiling '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/__init__.py'...
+[5.782s] Listing '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/msg'...
+[5.782s] Compiling '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/msg/__init__.py'...
+[5.783s] Compiling '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/msg/_test_packet.py'...
+[5.783s] Listing '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv'...
+[5.783s] Compiling '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/__init__.py'...
+[5.783s] Compiling '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/_set_logging.py'...
+[5.783s] Compiling '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/srv/_set_status.py'...
+[5.788s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[5.789s] -- Set non-toolchain portion of runtime path of "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.789s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_introspection_c.so
+[5.789s] -- Set non-toolchain portion of runtime path of "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[5.789s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_c.so
+[5.790s] -- Set non-toolchain portion of runtime path of "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages/hw3_interfaces/hw3_interfaces_s__rosidl_typesupport_c.so" to ""
+[5.790s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_generator_py.so
+[5.791s] -- Set non-toolchain portion of runtime path of "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/libhw3_interfaces__rosidl_generator_py.so" to ""
+[5.791s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/msg/TestPacket.idl
+[5.791s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/srv/SetStatus.idl
+[5.791s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/srv/SetLogging.idl
+[5.791s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/msg/TestPacket.msg
+[5.791s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/srv/SetStatus.srv
+[5.792s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/srv/SetLogging.srv
+[5.792s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/ament_index/resource_index/package_run_dependencies/hw3_interfaces
+[5.793s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/ament_index/resource_index/parent_prefix_path/hw3_interfaces
+[5.793s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/environment/ament_prefix_path.sh
+[5.793s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/environment/ament_prefix_path.dsv
+[5.793s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/environment/path.sh
+[5.794s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/environment/path.dsv
+[5.794s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/local_setup.bash
+[5.794s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/local_setup.sh
+[5.794s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/local_setup.zsh
+[5.794s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/local_setup.dsv
+[5.794s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/package.dsv
+[5.794s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/ament_index/resource_index/packages/hw3_interfaces
+[5.795s] -- Old export file "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[5.795s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_cExport.cmake
+[5.795s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_cExport-noconfig.cmake
+[5.796s] -- Old export file "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[5.796s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[5.796s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.797s] -- Old export file "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[5.797s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[5.797s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.798s] -- Old export file "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[5.798s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cExport.cmake
+[5.798s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[5.799s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_cppExport.cmake
+[5.799s] -- Old export file "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[5.799s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.800s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.800s] -- Old export file "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[5.801s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[5.801s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.801s] -- Old export file "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[5.801s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cppExport.cmake
+[5.802s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[5.802s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_pyExport.cmake
+[5.803s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/export_hw3_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[5.803s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/rosidl_cmake-extras.cmake
+[5.803s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.804s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.804s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[5.804s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[5.804s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.804s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.804s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfacesConfig.cmake
+[5.805s] -- Up-to-date: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/cmake/hw3_interfacesConfig-version.cmake
+[5.805s] -- Installing: /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/package.xml
+[5.809s] Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces

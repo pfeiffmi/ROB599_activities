@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: rob599-basic
+Version: 0.1.0
+Summary: ROS 2 examples for ROB 499/599: Robot Software Frameworks
+Maintainer: Bill Smart
+Maintainer-email: bill.smart@oregonstate.edu
+License: BSD-3-Clause
+License-File: LICENSE

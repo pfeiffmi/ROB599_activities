@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hw3_interfaces/msg/TestPacket.msg
+// generated code does not contain a copyright notice
+
+
+module hw3_interfaces {
+  module msg {
+    struct TestPacket {
+      uint64 send_time;
+
+      sequence<float> payload;
+    };
+  };
+};

@@ -1,0 +1,26 @@
+[0.051s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4_interfaces -- -j12 -l12
+[0.704s] [  2%] Built target hw4_interfaces__rosidl_generator_type_description
+[0.704s] [  2%] Built target ament_cmake_python_copy_hw4_interfaces
+[0.704s] [  5%] Built target hw4_interfaces__cpp
+[0.705s] [ 20%] Built target hw4_interfaces__rosidl_generator_c
+[0.706s] [ 32%] Built target hw4_interfaces__rosidl_typesupport_introspection_cpp
+[0.706s] [ 38%] Built target hw4_interfaces__rosidl_typesupport_c
+[0.706s] [ 55%] Built target hw4_interfaces__rosidl_typesupport_fastrtps_c
+[0.706s] [ 55%] Built target hw4_interfaces__rosidl_typesupport_introspection_c
+[0.707s] [ 64%] Built target hw4_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.707s] [ 73%] Built target hw4_interfaces__rosidl_typesupport_cpp
+[0.707s] [ 73%] Built target hw4_interfaces
+[0.707s] [ 76%] Built target hw4_interfaces__py
+[0.707s] [ 82%] Built target hw4_interfaces__rosidl_generator_py
+[0.707s] [100%] Built target hw4_interfaces_s__rosidl_typesupport_introspection_c
+[0.708s] [100%] Built target hw4_interfaces_s__rosidl_typesupport_fastrtps_c
+[0.708s] [100%] Built target hw4_interfaces_s__rosidl_typesupport_c
+[0.708s] running egg_info
+[0.709s] writing hw4_interfaces.egg-info/PKG-INFO
+[0.709s] writing dependency_links to hw4_interfaces.egg-info/dependency_links.txt
+[0.709s] writing top-level names to hw4_interfaces.egg-info/top_level.txt
+[0.709s] reading manifest file 'hw4_interfaces.egg-info/SOURCES.txt'
+[0.710s] writing manifest file 'hw4_interfaces.egg-info/SOURCES.txt'
+[0.710s] [100%] Built target ament_cmake_python_build_hw4_interfaces_egg
+[0.716s] Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4_interfaces -- -j12 -l12
+[0.728s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4_interfaces

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "rob599_msgs/srv/Doubler_Response",
+      "fields": [
+        {
+          "name": "doubled",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "rob599_msgs/srv/Doubler_Response",
+      "hash_string": "RIHS01_ce4a1b214536521b83b2fd43ab09678324e9010ff9d1b7105395d1b8b47c830f"
+    }
+  ]
+}

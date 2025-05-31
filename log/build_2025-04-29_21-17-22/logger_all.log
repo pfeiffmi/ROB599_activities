@@ -1,0 +1,437 @@
+[0.105s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.105s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x794af4cc73e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x794af4cc7170>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x794af4cc7170>>, mixin_verb=('build',))
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.137s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.137s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2) by extension 'ignore_ament_install'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2) by extensions ['colcon_pkg']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2) by extension 'colcon_pkg'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2) by extensions ['colcon_meta']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2) by extension 'colcon_meta'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2) by extensions ['ros']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw2) by extension 'ros'
+[0.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hw2' with type 'ros.ament_python' and name 'hw2'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extensions ['ignore', 'ignore_ament_install']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'ignore'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'ignore_ament_install'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extensions ['colcon_pkg']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'colcon_pkg'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extensions ['colcon_meta']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'colcon_meta'
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extensions ['ros']
+[0.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3) by extension 'ros'
+[0.163s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hw3' with type 'ros.ament_python' and name 'hw3'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3_interfaces) by extension 'ignore'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3_interfaces) by extension 'ignore_ament_install'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3_interfaces) by extensions ['colcon_pkg']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3_interfaces) by extension 'colcon_pkg'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3_interfaces) by extensions ['colcon_meta']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3_interfaces) by extension 'colcon_meta'
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3_interfaces) by extensions ['ros']
+[0.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw3_interfaces) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hw3_interfaces' with type 'ros.ament_cmake' and name 'hw3_interfaces'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extensions ['ignore', 'ignore_ament_install']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'ignore'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'ignore_ament_install'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extensions ['colcon_pkg']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'colcon_pkg'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extensions ['colcon_meta']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'colcon_meta'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extensions ['ros']
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/hw4) by extension 'ros'
+[0.164s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hw4' with type 'ros.ament_python' and name 'hw4'
+[0.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_basic) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_basic) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_basic) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_basic) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_basic) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_basic) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_basic) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_basic) by extensions ['ros']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_basic) by extension 'ros'
+[0.165s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rob599_basic' with type 'ros.ament_python' and name 'rob599_basic'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_msgs) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_msgs) by extension 'ignore_ament_install'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_msgs) by extensions ['colcon_pkg']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_msgs) by extension 'colcon_pkg'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_msgs) by extensions ['colcon_meta']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_msgs) by extension 'colcon_meta'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_msgs) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob599_msgs) by extension 'ros'
+[0.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rob599_msgs' with type 'ros.ament_cmake' and name 'rob599_msgs'
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.166s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.183s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install
+[0.184s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 318 installed packages in /opt/ros/jazzy
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw2' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw2' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw2' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw2' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw2' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'hw2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2', 'merge_install': False, 'path': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw2', 'symlink_install': False, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw3_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'hw3_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces', 'merge_install': False, 'path': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'hw4' build argument 'cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'hw4' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'hw4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'hw4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'hw4' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'hw4' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'hw4' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'hw4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'hw4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'hw4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4', 'merge_install': False, 'path': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw4', 'symlink_install': False, 'test_result_base': None}
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_basic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'rob599_basic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic', 'merge_install': False, 'path': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_basic', 'symlink_install': False, 'test_result_base': None}
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'rob599_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'rob599_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs', 'merge_install': False, 'path': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'hw3' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hw3' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hw3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hw3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hw3' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hw3' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hw3' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hw3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hw3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'hw3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3', 'merge_install': False, 'path': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3', 'symlink_install': False, 'test_result_base': None}
+[0.223s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.223s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.224s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3_interfaces' with build type 'ament_cmake'
+[0.224s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3_interfaces'
+[0.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.229s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw2' with build type 'ament_python'
+[0.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw2', 'ament_prefix_path')
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/hw2/hook/ament_prefix_path.ps1'
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/hw2/hook/ament_prefix_path.dsv'
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/hw2/hook/ament_prefix_path.sh'
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.233s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw4' with build type 'ament_python'
+[0.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4', 'ament_prefix_path')
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/hook/ament_prefix_path.ps1'
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/hook/ament_prefix_path.dsv'
+[0.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/hook/ament_prefix_path.sh'
+[0.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_basic' with build type 'ament_python'
+[0.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_basic', 'ament_prefix_path')
+[0.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/rob599_basic/hook/ament_prefix_path.ps1'
+[0.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/rob599_basic/hook/ament_prefix_path.dsv'
+[0.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/rob599_basic/hook/ament_prefix_path.sh'
+[0.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_msgs' with build type 'ament_cmake'
+[0.243s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_msgs'
+[0.243s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.243s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces -- -j12 -l12
+[0.527s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw2'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.765s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw4'
+[0.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.988s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_basic'
+[0.988s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.988s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.995s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces -- -j12 -l12
+[1.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces
+[1.007s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs -- -j12 -l12
+[1.079s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw3_interfaces)
+[1.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces' for CMake module files
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces' for CMake config files
+[1.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_interfaces', 'cmake_prefix_path')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/cmake_prefix_path.ps1'
+[1.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/cmake_prefix_path.dsv'
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/cmake_prefix_path.sh'
+[1.086s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib'
+[1.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_interfaces', 'ld_library_path_lib')
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/ld_library_path_lib.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/ld_library_path_lib.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/ld_library_path_lib.sh'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/bin'
+[1.088s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/pkgconfig/hw3_interfaces.pc'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages'
+[1.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_interfaces', 'pythonpath')
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/pythonpath.ps1'
+[1.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/pythonpath.dsv'
+[1.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/pythonpath.sh'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/bin'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/package.ps1'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/package.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/package.sh'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/package.bash'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/package.zsh'
+[1.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/colcon-core/packages/hw3_interfaces)
+[1.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw3_interfaces)
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces' for CMake module files
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces' for CMake config files
+[1.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_interfaces', 'cmake_prefix_path')
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/cmake_prefix_path.ps1'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/cmake_prefix_path.dsv'
+[1.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/cmake_prefix_path.sh'
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib'
+[1.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_interfaces', 'ld_library_path_lib')
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/ld_library_path_lib.ps1'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/ld_library_path_lib.dsv'
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/ld_library_path_lib.sh'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/bin'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/pkgconfig/hw3_interfaces.pc'
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages'
+[1.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3_interfaces', 'pythonpath')
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/pythonpath.ps1'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/pythonpath.dsv'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/hook/pythonpath.sh'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/bin'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/package.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/package.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/package.sh'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/package.bash'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/hw3_interfaces/package.zsh'
+[1.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/share/colcon-core/packages/hw3_interfaces)
+[1.111s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3' with build type 'ament_python'
+[1.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3', 'ament_prefix_path')
+[1.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/hw3/hook/ament_prefix_path.ps1'
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/hw3/hook/ament_prefix_path.dsv'
+[1.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/hw3/hook/ament_prefix_path.sh'
+[1.114s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.399s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3'
+[1.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs -- -j12 -l12
+[1.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs
+[1.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rob599_msgs)
+[1.672s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs' for CMake module files
+[1.673s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs' for CMake config files
+[1.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs
+[1.675s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_msgs', 'cmake_prefix_path')
+[1.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/cmake_prefix_path.ps1'
+[1.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/cmake_prefix_path.dsv'
+[1.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/cmake_prefix_path.sh'
+[1.677s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/lib'
+[1.677s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_msgs', 'ld_library_path_lib')
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/ld_library_path_lib.ps1'
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/ld_library_path_lib.dsv'
+[1.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/ld_library_path_lib.sh'
+[1.678s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/bin'
+[1.679s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/lib/pkgconfig/rob599_msgs.pc'
+[1.679s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/lib/python3.12/site-packages'
+[1.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_msgs', 'pythonpath')
+[1.679s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/pythonpath.ps1'
+[1.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/pythonpath.dsv'
+[1.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/pythonpath.sh'
+[1.681s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/bin'
+[1.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/package.ps1'
+[1.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/package.dsv'
+[1.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/package.sh'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/package.bash'
+[1.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/package.zsh'
+[1.684s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/colcon-core/packages/rob599_msgs)
+[1.685s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rob599_msgs)
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs' for CMake module files
+[1.686s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs' for CMake config files
+[1.687s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_msgs', 'cmake_prefix_path')
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/cmake_prefix_path.ps1'
+[1.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/cmake_prefix_path.dsv'
+[1.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/cmake_prefix_path.sh'
+[1.689s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/lib'
+[1.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_msgs', 'ld_library_path_lib')
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/ld_library_path_lib.ps1'
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/ld_library_path_lib.dsv'
+[1.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/ld_library_path_lib.sh'
+[1.690s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/bin'
+[1.690s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/lib/pkgconfig/rob599_msgs.pc'
+[1.691s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/lib/python3.12/site-packages'
+[1.691s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_msgs', 'pythonpath')
+[1.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/pythonpath.ps1'
+[1.692s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/pythonpath.dsv'
+[1.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/hook/pythonpath.sh'
+[1.693s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/bin'
+[1.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/package.ps1'
+[1.694s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/package.dsv'
+[1.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/package.sh'
+[1.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/package.bash'
+[1.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/rob599_msgs/package.zsh'
+[1.696s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/share/colcon-core/packages/rob599_msgs)
+[1.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw4': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw4 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/install.log --single-version-externally-managed install_data
+[1.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/install.log --single-version-externally-managed install_data
+[1.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_basic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rob599_basic build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/install.log --single-version-externally-managed install_data
+[2.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3': CMAKE_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw3 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/install.log --single-version-externally-managed install_data
+[2.755s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4' for CMake module files
+[2.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw4' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw4 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/install.log --single-version-externally-managed install_data
+[2.756s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4' for CMake config files
+[2.757s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/bin'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/pkgconfig/hw4.pc'
+[2.758s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages'
+[2.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw4', 'pythonpath')
+[2.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/hook/pythonpath.ps1'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/hook/pythonpath.dsv'
+[2.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/hook/pythonpath.sh'
+[2.761s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/bin'
+[2.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw4)
+[2.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/package.ps1'
+[2.762s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/package.dsv'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/package.sh'
+[2.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/package.bash'
+[2.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/package.zsh'
+[2.765s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/colcon-core/packages/hw4)
+[2.779s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2' for CMake module files
+[2.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/install.log --single-version-externally-managed install_data
+[2.781s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2' for CMake config files
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib'
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/bin'
+[2.782s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/pkgconfig/hw2.pc'
+[2.783s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages'
+[2.783s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw2', 'pythonpath')
+[2.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/hw2/hook/pythonpath.ps1'
+[2.784s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/hw2/hook/pythonpath.dsv'
+[2.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/hw2/hook/pythonpath.sh'
+[2.785s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/bin'
+[2.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw2)
+[2.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/hw2/package.ps1'
+[2.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/hw2/package.dsv'
+[2.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/hw2/package.sh'
+[2.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/hw2/package.bash'
+[2.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/hw2/package.zsh'
+[2.788s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/colcon-core/packages/hw2)
+[2.796s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic' for CMake module files
+[2.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_basic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rob599_basic build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/install.log --single-version-externally-managed install_data
+[2.798s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic' for CMake config files
+[2.798s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/bin'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/pkgconfig/rob599_basic.pc'
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages'
+[2.799s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob599_basic', 'pythonpath')
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/rob599_basic/hook/pythonpath.ps1'
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/rob599_basic/hook/pythonpath.dsv'
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/rob599_basic/hook/pythonpath.sh'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/bin'
+[2.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rob599_basic)
+[2.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/rob599_basic/package.ps1'
+[2.801s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/rob599_basic/package.dsv'
+[2.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/rob599_basic/package.sh'
+[2.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/rob599_basic/package.bash'
+[2.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/rob599_basic/package.zsh'
+[2.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/share/colcon-core/packages/rob599_basic)
+[3.107s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3' for CMake module files
+[3.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3' returned '0': CMAKE_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_msgs/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw3 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/install.log --single-version-externally-managed install_data
+[3.108s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3' for CMake config files
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/bin'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/pkgconfig/hw3.pc'
+[3.109s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages'
+[3.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('hw3', 'pythonpath')
+[3.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/hw3/hook/pythonpath.ps1'
+[3.110s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/hw3/hook/pythonpath.dsv'
+[3.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/hw3/hook/pythonpath.sh'
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/bin'
+[3.111s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hw3)
+[3.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/hw3/package.ps1'
+[3.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/hw3/package.dsv'
+[3.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/hw3/package.sh'
+[3.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/hw3/package.bash'
+[3.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/hw3/package.zsh'
+[3.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/colcon-core/packages/hw3)
+[3.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.114s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.114s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.120s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.121s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.121s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.139s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/local_setup.ps1'
+[3.140s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/_local_setup_util_ps1.py'
+[3.141s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/setup.ps1'
+[3.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/local_setup.sh'
+[3.143s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/_local_setup_util_sh.py'
+[3.144s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/setup.sh'
+[3.145s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/local_setup.bash'
+[3.146s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/setup.bash'
+[3.148s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/local_setup.zsh'
+[3.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/setup.zsh'

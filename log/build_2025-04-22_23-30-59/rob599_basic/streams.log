@@ -1,0 +1,35 @@
+[1.506s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_basic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rob599_basic build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/install.log --single-version-externally-managed install_data
+[1.800s] running egg_info
+[1.827s] writing ../../build/rob599_basic/rob599_basic.egg-info/PKG-INFO
+[1.827s] writing dependency_links to ../../build/rob599_basic/rob599_basic.egg-info/dependency_links.txt
+[1.827s] writing entry points to ../../build/rob599_basic/rob599_basic.egg-info/entry_points.txt
+[1.828s] writing requirements to ../../build/rob599_basic/rob599_basic.egg-info/requires.txt
+[1.828s] writing top-level names to ../../build/rob599_basic/rob599_basic.egg-info/top_level.txt
+[1.878s] reading manifest file '../../build/rob599_basic/rob599_basic.egg-info/SOURCES.txt'
+[1.878s] adding license file 'LICENSE'
+[1.878s] writing manifest file '../../build/rob599_basic/rob599_basic.egg-info/SOURCES.txt'
+[1.879s] running build
+[1.879s] running build_py
+[1.881s] running install
+[1.886s] running install_lib
+[1.912s] running install_data
+[1.912s] running install_egg_info
+[1.937s] removing '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic-0.1.0-py3.12.egg-info' (and everything under it)
+[1.938s] Copying ../../build/rob599_basic/rob599_basic.egg-info to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages/rob599_basic-0.1.0-py3.12.egg-info
+[1.940s] running install_scripts
+[2.099s] Installing action_client script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.100s] Installing action_server script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.100s] Installing bag_writer script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.100s] Installing custom_publisher script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.100s] Installing custom_subscriber script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.101s] Installing doubler script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.101s] Installing noiser script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.101s] Installing param_demo script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.101s] Installing publisher script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.101s] Installing service_client script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.102s] Installing service_server script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.102s] Installing subscriber script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.102s] Installing twice script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.102s] Installing useless script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/rob599_basic
+[2.103s] writing list of installed files to '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/install.log'
+[2.152s] Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_basic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/rob599_basic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rob599_basic build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_basic/install.log --single-version-externally-managed install_data

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: hw2
+Version: 0.0.1
+Summary: Package as part of the homework 2 to have an oscope with variable frequecies and a limiter publish data
+Maintainer: mike54pfeiffer
+Maintainer-email: pfeiffmi@oregonstate.edu
+License: Apache-2.0
+License-File: LICENSE

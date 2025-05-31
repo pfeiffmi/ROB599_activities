@@ -1,0 +1,6 @@
+msg/TestPacket.idl
+msg/TestPacket.msg
+srv/SetLogging.idl
+srv/SetLogging.srv
+srv/SetStatus.idl
+srv/SetStatus.srv

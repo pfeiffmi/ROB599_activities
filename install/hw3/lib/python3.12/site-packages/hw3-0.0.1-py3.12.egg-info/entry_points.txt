@@ -1,0 +1,7 @@
+[console_scripts]
+data_receiver = hw3.data_receiver:main
+data_receiver.log.start = hw3.data_receiver:start_logging_client
+data_receiver.log.stop = hw3.data_receiver:stop_logging_client
+data_sender = hw3.data_sender:main
+data_sender.start = hw3.a:start_data_client
+data_sender.stop = hw3.a:stop_data_client

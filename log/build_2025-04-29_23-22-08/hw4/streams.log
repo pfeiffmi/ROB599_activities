@@ -1,0 +1,38 @@
+[0.850s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw4': AMENT_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw4 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/install.log --single-version-externally-managed install_data
+[1.120s] running egg_info
+[1.142s] writing ../../build/hw4/hw4.egg-info/PKG-INFO
+[1.142s] writing dependency_links to ../../build/hw4/hw4.egg-info/dependency_links.txt
+[1.143s] writing entry points to ../../build/hw4/hw4.egg-info/entry_points.txt
+[1.143s] writing requirements to ../../build/hw4/hw4.egg-info/requires.txt
+[1.143s] writing top-level names to ../../build/hw4/hw4.egg-info/top_level.txt
+[1.186s] reading manifest file '../../build/hw4/hw4.egg-info/SOURCES.txt'
+[1.187s] adding license file 'LICENSE'
+[1.187s] writing manifest file '../../build/hw4/hw4.egg-info/SOURCES.txt'
+[1.187s] running build
+[1.187s] running build_py
+[1.188s] copying hw4/nasa.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4
+[1.188s] copying hw4/launch_rocket.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4
+[1.188s] copying hw4/oscope.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4
+[1.188s] running install
+[1.193s] running install_lib
+[1.217s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4/nasa.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4
+[1.217s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4/launch_rocket.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4
+[1.217s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4/oscope.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4
+[1.218s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4/nasa.py to nasa.cpython-312.pyc
+[1.219s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4/launch_rocket.py to launch_rocket.cpython-312.pyc
+[1.219s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4/oscope.py to oscope.cpython-312.pyc
+[1.220s] running install_data
+[1.220s] copying package.xml -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4
+[1.221s] copying launch/launch_rocket_without_cancel.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/launch
+[1.221s] copying launch/launch_rocket_with_cancel.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/launch
+[1.221s] running install_egg_info
+[1.245s] removing '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4-0.0.1-py3.12.egg-info' (and everything under it)
+[1.245s] Copying ../../build/hw4/hw4.egg-info to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4-0.0.1-py3.12.egg-info
+[1.247s] running install_scripts
+[1.398s] Installing limiter script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+[1.398s] Installing nasa script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+[1.398s] Installing oscope script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+[1.398s] Installing rocket_launcher.with_cancel script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+[1.398s] Installing rocket_launcher.without_cancel script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+[1.398s] writing list of installed files to '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/install.log'
+[1.433s] Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw4' returned '0': AMENT_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw4 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/install.log --single-version-externally-managed install_data

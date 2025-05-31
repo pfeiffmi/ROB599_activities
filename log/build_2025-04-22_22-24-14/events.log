@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000258] (hw2) JobQueued: {'identifier': 'hw2', 'dependencies': OrderedDict()}
+[0.000341] (hw3_interfaces) JobQueued: {'identifier': 'hw3_interfaces', 'dependencies': OrderedDict()}
+[0.000397] (rob599_basic) JobQueued: {'identifier': 'rob599_basic', 'dependencies': OrderedDict()}
+[0.000448] (rob599_msgs) JobQueued: {'identifier': 'rob599_msgs', 'dependencies': OrderedDict()}
+[0.000482] (hw3) JobQueued: {'identifier': 'hw3', 'dependencies': OrderedDict({'hw3_interfaces': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces'})}
+[0.002125] (hw3_interfaces) JobStarted: {'identifier': 'hw3_interfaces'}
+[0.014857] (hw2) JobStarted: {'identifier': 'hw2'}
+[0.025026] (rob599_basic) JobStarted: {'identifier': 'rob599_basic'}
+[0.034657] (rob599_msgs) JobStarted: {'identifier': 'rob599_msgs'}
+[0.041389] (hw3_interfaces) JobProgress: {'identifier': 'hw3_interfaces', 'progress': 'cmake'}
+[0.042423] (hw3_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces'], 'cwd': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mike54pfeiffer', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mike54pfeiffer', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src', 'TERM_PROGRAM_VERSION': '1.99.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '4041', 'SYSTEMD_EXEC_PID': '4545', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14905', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mike54pfeiffer', 'JOURNAL_STREAM': '9:29409', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mike54pfeiffer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ViLa15:@/tmp/.ICE-unix/4507,unix/ViLa15:/tmp/.ICE-unix/4507', 'INVOCATION_ID': 'ab0dbf46aa414f3294b51ecba2539141', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3be90dbc7a.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099449] (-) TimerEvent: {}
+[0.199976] (-) TimerEvent: {}
+[0.300602] (-) TimerEvent: {}
+[0.401504] (-) TimerEvent: {}
+[0.501999] (-) TimerEvent: {}
+[0.602570] (-) TimerEvent: {}
+[0.703106] (-) TimerEvent: {}
+[0.803628] (-) TimerEvent: {}
+[0.904029] (-) TimerEvent: {}
+[1.004438] (-) TimerEvent: {}
+[1.104867] (-) TimerEvent: {}
+[1.205296] (-) TimerEvent: {}
+[1.305705] (-) TimerEvent: {}
+[1.406140] (-) TimerEvent: {}
+[1.426013] (hw3_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.427264] (hw3_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.427588] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.427758] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.427904] (hw3_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.428173] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.428324] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.428462] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.428593] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.428730] (hw3_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.428869] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.429234] (hw3_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.429451] (hw3_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.429586] (rob599_msgs) JobProgress: {'identifier': 'rob599_msgs', 'progress': 'cmake'}
+[1.430816] (rob599_msgs) JobProgress: {'identifier': 'rob599_msgs', 'progress': 'build'}
+[1.431672] (rob599_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs', '--', '-j12', '-l12'], 'cwd': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mike54pfeiffer', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mike54pfeiffer', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src', 'TERM_PROGRAM_VERSION': '1.99.2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '4041', 'SYSTEMD_EXEC_PID': '4545', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14905', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mike54pfeiffer', 'JOURNAL_STREAM': '9:29409', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mike54pfeiffer', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ViLa15:@/tmp/.ICE-unix/4507,unix/ViLa15:/tmp/.ICE-unix/4507', 'INVOCATION_ID': 'ab0dbf46aa414f3294b51ecba2539141', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3be90dbc7a.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.486627] (hw3_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.506288] (-) TimerEvent: {}
+[1.578093] (rob599_msgs) StdoutLine: {'line': b'[  1%] Built target rob599_msgs__rosidl_generator_type_description\n'}
+[1.606426] (-) TimerEvent: {}
+[1.616964] (rob599_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_rob599_msgs\n'}
+[1.637553] (rob599_msgs) StdoutLine: {'line': b'[  3%] Built target rob599_msgs__cpp\n'}
+[1.649270] (rob599_msgs) StdoutLine: {'line': b'[ 25%] Built target rob599_msgs__rosidl_generator_c\n'}
+[1.706563] (-) TimerEvent: {}
+[1.727165] (rob599_msgs) StdoutLine: {'line': b'[ 43%] Built target rob599_msgs__rosidl_typesupport_introspection_c\n'}
+[1.727695] (rob599_msgs) StdoutLine: {'line': b'[ 43%] Built target rob599_msgs__rosidl_typesupport_c\n'}
+[1.735464] (rob599_msgs) StdoutLine: {'line': b'[ 62%] Built target rob599_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.736064] (rob599_msgs) StdoutLine: {'line': b'[ 62%] Built target rob599_msgs__rosidl_typesupport_cpp\n'}
+[1.737876] (rob599_msgs) StdoutLine: {'line': b'[ 71%] Built target rob599_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.740160] (rob599_msgs) StdoutLine: {'line': b'[ 81%] Built target rob599_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.784549] (hw3_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.793381] (rob599_msgs) StdoutLine: {'line': b'[ 81%] Built target rob599_msgs\n'}
+[1.806687] (-) TimerEvent: {}
+[1.845233] (rob599_msgs) StdoutLine: {'line': b'[ 82%] Built target rob599_msgs__py\n'}
+[1.906833] (-) TimerEvent: {}
+[1.913588] (rob599_msgs) StdoutLine: {'line': b'[ 90%] Built target rob599_msgs__rosidl_generator_py\n'}
+[1.980060] (rob599_msgs) StdoutLine: {'line': b'[ 93%] Built target rob599_msgs_s__rosidl_typesupport_introspection_c\n'}
+[1.982059] (rob599_msgs) StdoutLine: {'line': b'[ 96%] Built target rob599_msgs_s__rosidl_typesupport_c\n'}
+[1.985749] (rob599_msgs) StdoutLine: {'line': b'[100%] Built target rob599_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[2.006988] (-) TimerEvent: {}
+[2.056094] (hw3_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[2.107171] (-) TimerEvent: {}
+[2.163669] (hw3_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.204422] (hw3_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.207272] (-) TimerEvent: {}
+[2.246792] (hw3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.293765] (hw3_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.307415] (-) TimerEvent: {}
+[2.320314] (rob599_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.342239] (hw3_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.383968] (hw3_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.391540] (hw3_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):\n'}
+[2.391879] (hw3_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'srv/AddThreeInts.srv' doesn't\n"}
+[2.392159] (hw3_interfaces) StderrLine: {'line': b'  exist relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[2.392351] (hw3_interfaces) StderrLine: {'line': b"  '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3_interfaces'\n"}
+[2.392522] (hw3_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.392691] (hw3_interfaces) StderrLine: {'line': b'  CMakeLists.txt:29 (rosidl_generate_interfaces)\n'}
+[2.392863] (hw3_interfaces) StderrLine: {'line': b'\n'}
+[2.393080] (hw3_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[2.393409] (hw3_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.395338] (rob599_msgs) StdoutLine: {'line': b'writing rob599_msgs.egg-info/PKG-INFO\n'}
+[2.395934] (rob599_msgs) StdoutLine: {'line': b'writing dependency_links to rob599_msgs.egg-info/dependency_links.txt\n'}
+[2.396604] (rob599_msgs) StdoutLine: {'line': b'writing top-level names to rob599_msgs.egg-info/top_level.txt\n'}
+[2.407707] (-) TimerEvent: {}
+[2.408650] (hw3_interfaces) CommandEnded: {'returncode': 1}
+[2.457484] (hw3_interfaces) JobEnded: {'identifier': 'hw3_interfaces', 'rc': 1}
+[2.507839] (-) TimerEvent: {}
+[2.608250] (-) TimerEvent: {}
+[2.626038] (rob599_msgs) StdoutLine: {'line': b"reading manifest file 'rob599_msgs.egg-info/SOURCES.txt'\n"}
+[2.627416] (rob599_msgs) StdoutLine: {'line': b"writing manifest file 'rob599_msgs.egg-info/SOURCES.txt'\n"}
+[2.694891] (rob599_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rob599_msgs_egg\n'}
+[2.708389] (-) TimerEvent: {}
+[2.728947] (rob599_msgs) JobEnded: {'identifier': 'rob599_msgs', 'rc': 'SIGINT'}
+[2.808546] (-) TimerEvent: {}
+[2.908989] (-) TimerEvent: {}
+[3.009397] (-) TimerEvent: {}
+[3.109790] (-) TimerEvent: {}
+[3.210181] (-) TimerEvent: {}
+[3.310579] (-) TimerEvent: {}
+[3.410983] (-) TimerEvent: {}
+[3.511354] (-) TimerEvent: {}
+[3.569159] (hw2) JobEnded: {'identifier': 'hw2', 'rc': 'SIGINT'}
+[3.570507] (rob599_basic) JobEnded: {'identifier': 'rob599_basic', 'rc': 'SIGINT'}
+[3.580138] (hw3) JobSkipped: {'identifier': 'hw3'}
+[3.580256] (-) EventReactorShutdown: {}

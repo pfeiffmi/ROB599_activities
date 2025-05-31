@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hw4_interfaces/action/RocketLaunch_Result",
+      "fields": [
+        {
+          "name": "sequence",
+          "type": {
+            "type_id": 152,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_Result",
+      "hash_string": "RIHS01_5617297e0908ee58df580d7aa3bf927b8ff03b0714199e6dd25229fccef16bdb"
+    }
+  ]
+}

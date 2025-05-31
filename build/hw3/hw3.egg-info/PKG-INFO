@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: hw3
+Version: 0.0.1
+Summary: Package as part of the homework 3 to a latency estimator with a service to enable logging
+Maintainer: mike54pfeiffer
+Maintainer-email: pfeiffmi@oregonstate.edu
+License: Apache-2.0
+License-File: LICENSE

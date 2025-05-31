@@ -1,0 +1,17 @@
+[console_scripts]
+action_client = rob599_basic.action_client:without_cancel
+action_client_with_cancel = rob599_basic.action_client:with_cancel
+action_server = rob599_basic.action_server:main
+bag_writer = rob599_basic.bag_writer:main
+custom_publisher = rob599_basic.messages:object_publisher
+custom_subscriber = rob599_basic.messages:object_subscriber
+doubler = rob599_basic.value_manipulator:doubler
+marker = rob599_basic.marker:main
+noiser = rob599_basic.value_manipulator:noiser
+param_demo = rob599_basic.params:main
+publisher = rob599_basic.publisher:main
+service_client = rob599_basic.service_client:main
+service_server = rob599_basic.service_server:main
+subscriber = rob599_basic.subscriber:main
+twice = rob599_basic.twice:main
+useless = rob599_basic.node:main

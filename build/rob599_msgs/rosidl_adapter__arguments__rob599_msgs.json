@@ -1,0 +1,9 @@
+{
+  "package_name": "rob599_msgs",
+  "non_idl_tuples": [
+    "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_msgs:msg/Object.msg",
+    "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_msgs:srv/Doubler.srv",
+    "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_msgs:srv/FibService.srv",
+    "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/rob599_msgs:action/Fibonacci.action"
+  ]
+}

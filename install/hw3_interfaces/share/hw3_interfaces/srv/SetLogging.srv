@@ -1,0 +1,4 @@
+bool log_data
+string log_file
+---
+bool success

@@ -1,0 +1,26 @@
+[1.370s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw4': AMENT_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw4 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/install.log --single-version-externally-managed install_data
+[1.726s] running egg_info
+[1.756s] writing ../../build/hw4/hw4.egg-info/PKG-INFO
+[1.756s] writing dependency_links to ../../build/hw4/hw4.egg-info/dependency_links.txt
+[1.757s] writing entry points to ../../build/hw4/hw4.egg-info/entry_points.txt
+[1.757s] writing requirements to ../../build/hw4/hw4.egg-info/requires.txt
+[1.757s] writing top-level names to ../../build/hw4/hw4.egg-info/top_level.txt
+[1.813s] reading manifest file '../../build/hw4/hw4.egg-info/SOURCES.txt'
+[1.813s] adding license file 'LICENSE'
+[1.814s] writing manifest file '../../build/hw4/hw4.egg-info/SOURCES.txt'
+[1.814s] running build
+[1.814s] running build_py
+[1.815s] running install
+[1.821s] running install_lib
+[1.852s] running install_data
+[1.852s] running install_egg_info
+[1.881s] removing '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4-0.0.1-py3.12.egg-info' (and everything under it)
+[1.881s] Copying ../../build/hw4/hw4.egg-info to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4-0.0.1-py3.12.egg-info
+[1.882s] running install_scripts
+[2.074s] Installing limiter script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+[2.074s] Installing nasa script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+[2.074s] Installing oscope script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+[2.075s] Installing rocket_launcher.with_cancel script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+[2.075s] Installing rocket_launcher.without_cancel script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+[2.075s] writing list of installed files to '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/install.log'
+[2.141s] Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw4' returned '0': AMENT_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw4 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/install.log --single-version-externally-managed install_data

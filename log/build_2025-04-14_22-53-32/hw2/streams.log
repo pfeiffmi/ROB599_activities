@@ -1,0 +1,33 @@
+[1.182s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/install.log --single-version-externally-managed install_data
+[1.474s] running egg_info
+[1.474s] creating ../../build/hw2/hw2.egg-info
+[1.496s] writing ../../build/hw2/hw2.egg-info/PKG-INFO
+[1.496s] writing dependency_links to ../../build/hw2/hw2.egg-info/dependency_links.txt
+[1.496s] writing requirements to ../../build/hw2/hw2.egg-info/requires.txt
+[1.497s] writing top-level names to ../../build/hw2/hw2.egg-info/top_level.txt
+[1.497s] writing manifest file '../../build/hw2/hw2.egg-info/SOURCES.txt'
+[1.547s] reading manifest file '../../build/hw2/hw2.egg-info/SOURCES.txt'
+[1.547s] adding license file 'LICENSE'
+[1.547s] writing manifest file '../../build/hw2/hw2.egg-info/SOURCES.txt'
+[1.548s] running build
+[1.548s] running build_py
+[1.548s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/build
+[1.548s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/build/lib
+[1.548s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/build/lib/hw2
+[1.548s] copying hw2/__init__.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/build/lib/hw2
+[1.549s] running install
+[1.553s] running install_lib
+[1.576s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages/hw2
+[1.576s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/build/lib/hw2/__init__.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages/hw2
+[1.577s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages/hw2/__init__.py to __init__.cpython-312.pyc
+[1.577s] running install_data
+[1.577s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/ament_index
+[1.577s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/ament_index/resource_index
+[1.577s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/ament_index/resource_index/packages
+[1.577s] copying resource/hw2 -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/ament_index/resource_index/packages
+[1.577s] copying package.xml -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/share/hw2
+[1.578s] running install_egg_info
+[1.603s] Copying ../../build/hw2/hw2.egg-info to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages/hw2-0.0.0-py3.12.egg-info
+[1.604s] running install_scripts
+[1.759s] writing list of installed files to '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/install.log'
+[1.798s] Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw2' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw2/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw2 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw2/install.log --single-version-externally-managed install_data

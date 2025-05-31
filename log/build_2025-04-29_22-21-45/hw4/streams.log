@@ -1,0 +1,27 @@
+[2.373s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw4': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw4 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/install.log --single-version-externally-managed install_data
+[2.859s] running egg_info
+[2.898s] writing ../../build/hw4/hw4.egg-info/PKG-INFO
+[2.899s] writing dependency_links to ../../build/hw4/hw4.egg-info/dependency_links.txt
+[2.899s] writing entry points to ../../build/hw4/hw4.egg-info/entry_points.txt
+[2.899s] writing requirements to ../../build/hw4/hw4.egg-info/requires.txt
+[2.899s] writing top-level names to ../../build/hw4/hw4.egg-info/top_level.txt
+[3.025s] reading manifest file '../../build/hw4/hw4.egg-info/SOURCES.txt'
+[3.025s] adding license file 'LICENSE'
+[3.025s] writing manifest file '../../build/hw4/hw4.egg-info/SOURCES.txt'
+[3.026s] running build
+[3.026s] running build_py
+[3.026s] copying hw4/oscope.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4
+[3.027s] running install
+[3.037s] running install_lib
+[3.073s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build/lib/hw4/oscope.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4
+[3.075s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4/oscope.py to oscope.cpython-312.pyc
+[3.077s] running install_data
+[3.079s] copying launch/wave.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/share/hw4/launch
+[3.079s] running install_egg_info
+[3.115s] removing '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4-0.0.1-py3.12.egg-info' (and everything under it)
+[3.115s] Copying ../../build/hw4/hw4.egg-info to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages/hw4-0.0.1-py3.12.egg-info
+[3.117s] running install_scripts
+[3.455s] Installing limiter script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+[3.456s] Installing oscope script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/hw4
+[3.457s] writing list of installed files to '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/install.log'
+[3.588s] Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw4' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw4/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw4 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw4/install.log --single-version-externally-managed install_data

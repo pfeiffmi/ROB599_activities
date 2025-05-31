@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "hw4_interfaces/action/RocketLaunch_Feedback",
+      "fields": [
+        {
+          "name": "progress",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "hw4_interfaces/action/RocketLaunch_Feedback",
+      "hash_string": "RIHS01_efc0231c8b73648afaf6e3362504a1afb916c56ccec4f49f51c552ef29f11552"
+    }
+  ]
+}

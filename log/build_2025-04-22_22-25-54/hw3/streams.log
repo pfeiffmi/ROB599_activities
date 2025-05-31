@@ -1,0 +1,42 @@
+[0.872s] Invoking command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3': AMENT_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw3 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/install.log --single-version-externally-managed install_data
+[1.389s] running egg_info
+[1.389s] creating ../../build/hw3/hw3.egg-info
+[1.411s] writing ../../build/hw3/hw3.egg-info/PKG-INFO
+[1.411s] writing dependency_links to ../../build/hw3/hw3.egg-info/dependency_links.txt
+[1.411s] writing entry points to ../../build/hw3/hw3.egg-info/entry_points.txt
+[1.411s] writing requirements to ../../build/hw3/hw3.egg-info/requires.txt
+[1.411s] writing top-level names to ../../build/hw3/hw3.egg-info/top_level.txt
+[1.411s] writing manifest file '../../build/hw3/hw3.egg-info/SOURCES.txt'
+[1.453s] reading manifest file '../../build/hw3/hw3.egg-info/SOURCES.txt'
+[1.454s] adding license file 'LICENSE'
+[1.454s] writing manifest file '../../build/hw3/hw3.egg-info/SOURCES.txt'
+[1.454s] running build
+[1.454s] running build_py
+[1.454s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build
+[1.454s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build/lib
+[1.454s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build/lib/hw3
+[1.454s] copying hw3/__init__.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build/lib/hw3
+[1.455s] copying hw3/data_sender.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build/lib/hw3
+[1.455s] copying hw3/data_receiver.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build/lib/hw3
+[1.455s] running install
+[1.459s] running install_lib
+[1.485s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages/hw3
+[1.485s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build/lib/hw3/__init__.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages/hw3
+[1.485s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build/lib/hw3/data_sender.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages/hw3
+[1.486s] copying /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build/lib/hw3/data_receiver.py -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages/hw3
+[1.486s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages/hw3/__init__.py to __init__.cpython-312.pyc
+[1.486s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages/hw3/data_sender.py to data_sender.cpython-312.pyc
+[1.487s] byte-compiling /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages/hw3/data_receiver.py to data_receiver.cpython-312.pyc
+[1.487s] running install_data
+[1.487s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/ament_index
+[1.487s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/ament_index/resource_index
+[1.487s] creating /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/ament_index/resource_index/packages
+[1.487s] copying resource/hw3 -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/ament_index/resource_index/packages
+[1.487s] copying package.xml -> /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/share/hw3
+[1.487s] running install_egg_info
+[1.512s] Copying ../../build/hw3/hw3.egg-info to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages/hw3-0.0.1-py3.12.egg-info
+[1.513s] running install_scripts
+[1.656s] Installing data_receiver script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/hw3
+[1.657s] Installing data_sender script to /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/hw3
+[1.657s] writing list of installed files to '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/install.log'
+[1.690s] Invoked command in '/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3' returned '0': AMENT_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3/lib/python3.12/site-packages:/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/install/hw3_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hw3 build --build-base /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/build install --record /home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/hw3/install.log --single-version-externally-managed install_data

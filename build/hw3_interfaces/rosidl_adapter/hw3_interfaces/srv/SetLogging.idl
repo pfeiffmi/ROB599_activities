@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from hw3_interfaces/srv/SetLogging.srv
+// generated code does not contain a copyright notice
+
+
+module hw3_interfaces {
+  module srv {
+    struct SetLogging_Request {
+      boolean log_data;
+
+      string log_file;
+    };
+    struct SetLogging_Response {
+      boolean success;
+    };
+  };
+};

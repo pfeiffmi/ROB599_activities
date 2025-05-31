@@ -1,0 +1,16 @@
+{
+  "package_name": "rob599_msgs",
+  "output_dir": "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs/rosidl_generator_type_description/rob599_msgs",
+  "idl_tuples": [
+    "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs/rosidl_adapter/rob599_msgs:msg/Object.idl",
+    "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs/rosidl_adapter/rob599_msgs:srv/Doubler.idl",
+    "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs/rosidl_adapter/rob599_msgs:srv/FibService.idl",
+    "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/build/rob599_msgs/rosidl_adapter/rob599_msgs:action/Fibonacci.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

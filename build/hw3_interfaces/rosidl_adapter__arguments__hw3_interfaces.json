@@ -1,0 +1,8 @@
+{
+  "package_name": "hw3_interfaces",
+  "non_idl_tuples": [
+    "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3_interfaces:msg/TestPacket.msg",
+    "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3_interfaces:srv/SetStatus.srv",
+    "/home/mike54pfeiffer/Desktop/School/ROB599/ROB599_ws/src/hw3_interfaces:srv/SetLogging.srv"
+  ]
+}
