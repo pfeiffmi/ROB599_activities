@@ -1,0 +1,17 @@
+# How to run
+
+1. Unzip the two packakes (hw3 and hw3_interfaces) into your workspace
+
+2. Open a new terminal with the working directory set to your ROS2 workspace
+
+3. Run `colcon build` in your ROS2 workspace
+
+4. Run `source install/setup.bash`
+
+5. Run `ros2 run hw3 data_sender`
+
+6. Open another terminal with the working directory set to your ROS2 workspace
+
+7. Run `source install/setup.bash`
+
+8. Run `ros2 run hw3 data_receiver`

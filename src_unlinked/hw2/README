@@ -1,0 +1,39 @@
+# How to run package
+
+1. Ensure package is in the src (or equivalent) folder within your workspace
+
+2. Open a terminal window
+
+3. Ensure your current working directory is on your ROS2 workspace
+
+4. Run in terminal: `colcon build`
+
+5. Run in terminal: `source install/setup.bash`
+
+6. Run in terminal: `ros2 run hw2 oscope`
+
+7. The oscope at 1 Hz should now be publishing at 100 Hz
+
+8. Open another terminal window
+
+9. Ensure your current working directory is on your ROS2 workspace
+
+10. Run in terminal: `source install/setup.bash`
+
+11. Run in terminal: `ros2 run hw2 limiter`
+
+12. There should now be an `oscope` publisher and a `limiter` subscrber-publisher
+
+13. Can now open PlotJuggler to see a plot of the published data for each node
+
+# Different Running Commands (For Fast/Slow Oscope Wave)
+
+To have the oscope publish at a faster rate, replace the ros2 command in the instructions above with the following: `ros2 run hw2 fast_wave`
+
+To have the oscope publish at a slower rate, replace the ros2 command in the instructions above with the following: `ros2 run hw2 slow_wave`
+
+# Warning
+
+Warning: You can only run one of the `oscope`, `fast_wave`, and `slow_wave` nodes at a time due to them publishing data using the same node topic name. 
+
+This means if you wish to change the 1 Hz `oscope` node to the `fast wave` variant, then you must stop the execution of the `oscope` node first before running the `fast_wave` node. The same thing applies when switching between any of the 3 nodes.
